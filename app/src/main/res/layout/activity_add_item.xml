@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Food Name Input -->
+    <EditText
+        android:id="@+id/editTextFoodName"
+        android:hint="Food Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <!-- Category Input -->
+    <EditText
+        android:id="@+id/editTextCategory"
+        android:hint="Category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="16dp" />
+
+    <!-- Expiry Date TextView (Clickable) -->
+    <TextView
+        android:id="@+id/textViewExpiryDate"
+        android:text="Select Expiry Date"
+        android:textColor="@android:color/holo_blue_dark"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSave"
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

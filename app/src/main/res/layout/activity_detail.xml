@@ -1,0 +1,13 @@
+<!-- res/layout/activity_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detailText"
+        android:text="Detail Screen"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
